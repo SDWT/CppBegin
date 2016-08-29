@@ -4,7 +4,11 @@
 
 /*using namespace std;*/
 
-/* C++ classes */
+/* 
+ * C++ classes
+ * Abstraction data (methods and data in diferent files)
+ * Point and class
+ */
 int main( int argc, char *argv[] )
 {
 
@@ -48,3 +52,5 @@ int main( int argc, char *argv[] )
 
   return 0;
 }
+
+/* END OF 'MAIN.C' FILE */

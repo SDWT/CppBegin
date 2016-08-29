@@ -6,53 +6,24 @@
 class STUDENTS
 {
 public:
-  /* function calculated average */
-  void calculateAverageBall()
-  {
-    int sum = 0; /* sum all scores */
-    for (int i = 0; i < 5; i++)
-      sum += scores[i];
-    AverageBall = sum / 5.0;
-  }
-  /* Set average score */
-  void setAverageBall( double ball )
-  {
-    AverageBall = ball;
-  }
-  /* Get average score */
-  double getAverageBall()
-  {
-    return AverageBall;
-  }
-  
-  /* Set name */
-  void setName( std::string InName )
-  {
-    Name = InName;
-  }
-  /* Get name */
-  std::string getName()
-  {
-    return Name;
-  }
-  
-  /* Set average score */
-  void setLastName( std::string InLastName )
-  {
-    LastName = InLastName;
-  }
-  /* Get average score */
-  std::string getLastName()
-  {
-    return LastName;
-  }
   /* Set student scores */
-  void SetStudentScores( int StudentScores[] )
-  {
-    for (int i = 0; i < 5; i++)
-      scores[i] = StudentScores[i];
-  }
+  void SetStudentScores(int StudentScores[]);
 
+  /* function calculated average */
+  void calculateAverageBall();
+  /* Set average score */
+  void setAverageBall(double ball);
+  /* Get average score */
+  double getAverageBall();
+
+  /* Set name */
+  void setName(std::string InName);
+  /* Get name */
+  std::string getName();
+  /* Set average score */
+  void setLastName(std::string InLastName);
+  /* Get average score */
+  std::string getLastName();
 
 private:
   /* Student name */
@@ -66,3 +37,5 @@ private:
 };
 
 #endif /* __STUDENT_H_ */
+
+/* END OF 'STUDENT.H' FILE */
